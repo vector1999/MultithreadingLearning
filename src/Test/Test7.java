@@ -6,11 +6,13 @@ public class Test7 {
         int[] cnt = new int[26];
         for(int i = 0; i < str.length(); i++){
             cnt[str.charAt(i) - 'a']++;
+            //hhhh
         }
         for(int i = 0; i < 26; i++){
             if(cnt[i] != 0){
                 char ch = (char)(i + 'a');
                 System.out.print(ch + cnt[i]);
+                System.out.println("hello world");
             }
         }
     }

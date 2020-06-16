@@ -212,5 +212,6 @@ public class Test6 {
             }
             System.out.print("\n");
         }
+        System.out.println("test git");
     }
 }
