@@ -12,7 +12,7 @@ public class Test7 {
             if(cnt[i] != 0){
                 char ch = (char)(i + 'a');
                 System.out.print(ch + cnt[i]);
-                System.out.println("hello world");
+                System.out.println("hello");
             }
         }
     }
